@@ -36,7 +36,11 @@ print(obj.identyfy())
 
 "dhsdflksflkdjf"
 
-
+def handling():
+    file = open("BT-project\sample.txt","r")
+    data = file.read()
+    print(data)
+handling()
 
 
 
